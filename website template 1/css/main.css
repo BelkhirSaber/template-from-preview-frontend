@@ -1,0 +1,403 @@
+/*
+    Auther: Belkhir Saber
+    Design From The: PSD Booster
+    Free Licenrce
+*/
+/*Start GLobal Custom In Bootstrap */
+.header .bg-dark{
+    background-color:#252F31 !important
+}
+.header .navbar-brand{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -0.01em
+}
+.header .navbar-brand .br_lt{
+    background-color: #4a5456;
+    display: inline-block;
+    padding: 0 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px
+} 
+.header .navbar-brand .br{
+    color:#2ED073
+}
+.header .navbar .navbar-collapse .mr-auto{
+    margin-right: 30px !important;
+    margin-left: auto !important
+}
+.header .navbar-nav li.nav-item a.nav-link{
+    text-transform:capitalize;
+    letter-spacing:1.4px;
+    word-spacing: 3px;
+    color: #FFF
+}
+.header .navbar-nav li.nav-item:hover a.nav-link{
+    color: #2ED073
+}
+.header .navbar-dark .navbar-nav .active>.nav-link,
+.header .navbar-dark .navbar-nav .nav-link.active,
+.header .navbar-dark .navbar-nav .nav-link.show,
+.header .navbar-dark .navbar-nav .show>.nav-link{
+    color: #2ED073
+}
+/*Start GLobal Custom In Bootstrap */
+/* Start Header */
+.header .back img{width: 100%}
+.header .back .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+.header .back .info h1{
+    color: #FFF;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    padding:10px 0;
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px
+}
+.header .back .info .green-btn{
+    border: 1px solid #FFF;
+    color:#FFF;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 20px;
+}
+@media(min-width:320px) and (max-width:575.98px){
+    .header .back .info h1{font-size: 14px;margin-top: 45%}
+    .header .back .info .green-btn{font-size:12px;padding: 5px 10px}
+}
+@media(min-width:576px) and (max-width:767.98px){
+    .header .back .info h1{font-size: 20px;margin-top: 45%}
+    .header .back .info .green-btn{font-size:16px;padding: 5px 10px}
+}
+@media(min-width: 767.98px) and (max-width:991.98px){
+    .header .back .info h1{font-size: 25px;margin-top: 40%}
+    .header .back .info .green-btn{font-size:16px;padding: 5px 10px}
+}
+@media(min-width:992px){ .header .back .info h1{margin-top: 25%}}
+
+@media(min-width:320px) and (max-width:991.98px){
+    .header nav.fixed-bottom{bottom:unset;top:0}
+    .header .back{margin-top: 56px}
+}
+/* End Header */
+/*Start Features*/
+.features{
+    margin:30px 0;
+    overflow: hidden
+}
+.features .feat h2{margin: 0 auto 20px;color:#3f4847}
+.features .feat p{color:#c4c4c4}
+
+@media(min-width:320px) and (max-width:767.98px){
+    .features h1{font-size: 28px;margin: 0 auto 20px;}
+    .features .feat h2{font-size: 25px;}
+    .features .feat p{margin: 0 10px;font-size: 14px;text-align: center;margin-bottom: 20px;}
+}
+@media(min-width:767.98px) and (max-width:991.98px){
+    .features .feat p{font-size: 14px}
+}
+/* End Features */
+/*Start About Company */
+/*Start aboute me*/
+.company{overflow:hidden;background-color:#000;margin: 30px 0 }
+.company .image{height: 100%}
+.company .image img{margin-bottom: 30px;height: 100%}
+.company .info {margin-left: 40px}
+.company .info > h2{margin-top:50px;margin-bottom: 10px;color:#3f4847}
+.company .info >p{
+    font-size: 16px;
+    text-align: justify;
+    color:#c4c4c4;
+    margin-bottom: 0;
+}
+.company .info .hobbies{overflow:hidden}
+.company .info .hobbies .content {width:45%;
+    float:left;
+    height: 80px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    
+}
+.company .info .hobbies .content .icon{
+    width:10%;
+    margin-right: 20px;
+    float: left;
+    display: block
+}
+.company .info .hobbies .content .icon i{color: #2dcc70;font-size: 28px;margin-top: 10px}
+.company .info .hobbies .content .text{float: left;width: 80%}
+.company .info .hobbies .content .text h3{margin: 0; color:#3f4847;text-transform: capitalize;}
+.company .info .hobbies .content .text P{margin: 0;color:#c4c4c4;font-size: 16px}
+
+@media(min-width:320px) and (max-width:767.98px){
+    .company .image{width: 100%}
+    .company .info{margin-left:0; text-align: center}
+    .company .info > h2{font-size: 25px; margin: 30px 0 20px;text-transform:capitalize}
+    .company .info >p{font-size:14px}
+    .company .info .hobbies .content{
+        margin-bottom: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: -o-fit-content;
+        height: fit-content;
+        width: 100%
+    }
+    .company .info .hobbies .content .icon{
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: -o-fit-content;
+        width: fit-content;
+        float:none;
+        display: block;
+        margin: 0 auto 20px}
+    .company .info .hobbies .content .text{text-align:center;width: 100%;}
+    .company .info .hobbies .content .text h3{font-size: 20px; margin-bottom: 20px}
+    .company .info .hobbies .content .text p{text-align: center;font-size:14px}
+}
+@media(min-width:767.98px) and (max-width:991.98px){
+    .company .info >p{font-size:14px}
+    .company .info .hobbies .content{margin-right:20px;margin-bottom:35px}
+    .company .info .hobbies .content .text h3{font-size: 20px; margin-bottom: 10px;}
+    .company .info .hobbies .content .text p{font-size: 14px}
+}
+/*End About Company*/
+/*Start Skills*/
+.my-skills{margin:30px 0;overflow: hidden}
+.my-skills .intro h2{font-weight: bold;margin-bottom: 30px;color:#3f4847}
+.my-skills .intro p{font-size: 16px; color:#c4c4c4; line-height: 1.6;}
+.my-skills .intro button{margin-top: 20px;margin-bottom: 20px}
+.my-skills{margin: 30px 0}
+.my-skills .prog{margin-bottom: 20px}
+.my-skills .prog:first-child{margin-top: 30px}
+.my-skills .prog h3{
+    font-weight:600;
+    text-transform:uppercase;
+    color: #3f4847;
+    margin-bottom: 15px;
+}
+.my-skills .prog .progress{margin-bottom: 25px;border-radius:0;height: 20px}
+.my-skills .prog .progress .progress-bar{text-align: left;background-color:#2ED073}
+@media(min-width:320px) and (max-width:767.98px){
+    .my-skills .intro p{font-size: 14px }
+    .my-skills .intro button{
+        display: block;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .my-skills .intro h2{margin: 0 auto 30px}
+}
+@media(min-width:767.98px) and (max-width:991.98px){.my-skills .intro p{font-size: 16px}}
+/*End Skills*/
+/*Start Resume*/
+.resume{
+    margin: 30px 0;
+    padding: 0 0 20px  ;
+    text-align: center;
+    background-color:#F2F2F2;
+}
+.resume p{padding:0 12%;margin-top:30px;text-align:center;color:#c4c4c4}
+.resume button{margin-top:20px}
+@media(min-width:320px) and (max-width:767.98px){.resume p{font-size: 14px}}
+/*End Resume*/
+
+/*Start Education*/
+.my-education{margin: 30px 0;padding: 0 0 20px;overflow: hidden}
+.my-education hr{
+    height:1px;
+    background-color:#D1D1D1;
+    border:0;
+    margin-top:10px;
+    margin-bottom:20px
+}
+.my-education .main h2{margin:40px 0 0;color:#3f4847}
+.my-education .main p{margin:20px 0 10px; color: #c4c4c4}
+.my-education .main p:last-of-type{margin-top:20px}
+.my-education .exp h3{margin-top:88px;margin-bottom:0;color:#3f4847}
+.my-education .exp span{display:block;margin-top:5px;color:#7f7f7f}
+.my-education .exp .certificate span:last-of-type{
+    display:inline-block;
+    background-color:#35CA79;
+    color:#FFF;
+    font-weight:bold;
+    padding:3px 5px;
+    margin-top:10px;
+    margin-bottom:14px;
+    border-radius: 8px 8px 8px 0
+}
+.my-education .exp .certificate p{color: #c4c4c4}
+@media(min-width:320px) and (max-width:767.98px){
+    .my-education{padding-bottom: 0}
+    .my-education .main h2{margin-top:20px}
+    .my-education .exp h3{margin-top:30px}
+    .my-education .container > hr{display: none}
+    .my-education .exp .certificate p{font-size: 14px}
+}
+/*End Education*/
+/*Start Portfolio*/
+.portfolio{margin: 30px 0;padding:0 0 20px;text-align:center}
+.portfolio h2{font-size:30px;color:#3f4847}
+.portfolio p{margin-top:30px;margin-bottom:40px;padding-left:20px;padding-right:20px;color:#c4c4c4}
+.portfolio .our-work{overflow:hidden}
+.portfolio .our-work > div{float:left;width: 33.3333%;margin-bottom:10px}
+.portfolio .our-work > div img{
+    width:92%;
+    margin:10px;
+    padding:3px;
+    background-color:#FFF;
+    border:1px solid #CCC;
+    box-shadow:5px 5px 8px #CCC
+}
+@media(min-width:320px) and (max-width:767.98px){
+    .portfolio{padding-top:20px;padding-bottom: 20px}
+    .portfolio p{font-size: 12px;margin-top:10px;margin-bottom:10px;text-align: justify}
+}
+/*End Portfolio*/
+
+/*Start Contact Me*/
+.contact{background-color:#191E22;overflow:hidden}
+.contact .info{margin-right:5%}
+.contact .info h2{color:#fff;margin-top:70px;margin-bottom:20px}
+.contact .info p{color:#666}
+.contact .info p:first-of-type{margin-bottom:20px}
+.contact .info p:last-of-type{margin-top:20px}
+.contact .info p span{margin-left:20px}
+.contact .info p strong{color:#bfbfbf}
+.contact .form{margin-top:100px}
+.contact .form label{
+    margin-bottom:10px;
+    color:#bfbfbf;
+    display:block;
+    font-weight:bold;
+    text-transform:capitalize
+}
+.contact .form input[type="text"]{
+    background-color:#4B5557;
+    border:0;
+    padding:10px;
+    width:100%;
+    color:#fff;
+    margin-bottom:30px
+}
+.contact .form textarea{
+    width:80%;
+    height:200px;
+    background-color:#4B5557;
+    border:0;
+    padding:10px;
+    width:100%;
+    color:#fff;
+    margin-bottom:40px;
+    display:block
+}
+.contact .form input[type="submit"]{
+    border:2px solid #2DCC70;
+    color:#FFF;
+    padding:10px 30px;
+    background-color:#0E0E0E;
+    border-radius:10px 10px 10px 0;
+    margin-bottom:80px
+}
+@media(min-width:320px) and (max-width:767.98px){
+    .contact .info h2{
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: -o-fit-content;
+        width: fit-content;
+        margin: 50px auto 30px
+    }
+    .contact .form{margin-top:30px}
+    .contact .info p,
+    .contact .form label,
+    .contact .form input[type="text"],
+    .contact .form textarea{
+        font-size: 14px
+    }
+}
+/*End contact Me*/
+/*Start Footer*/
+.footer{background-color:#0E0E0E;color:#C1C1C1;text-align: center;padding:10px 0 30px;text-align: center }
+.footer span{display:block;margin:0 auto;padding-top:20px}
+.footer span b{text-transform:uppercase}
+.footer ul{display:block;list-style:none;margin:0 0 0 -35px}
+.footer ul li{
+    display:inline-block;
+    background-color:#505b5d;
+    border-radius:50%;
+    width:32px;
+    height:32px;
+    cursor: pointer;
+    margin: 20px 5px 20px 0;
+    line-height:32px
+}
+.footer ul li i{
+    color:#151d20;
+    opacity:0.5;
+    -webkit-transition-duration: .7s;
+    -moz-transition-duration: .7s;
+    -o-transition-duration: .7s;
+    transition-duration: .7s;
+}
+.footer ul li:hover i{
+    color:#FFF;
+    opacity:1;
+    -webkit-transform: all ease-in-out;
+    -moz-transform: all ease-in-out;
+    -o-transform: all ease-in-out;
+    transform: all ease-in-out;
+}
+@media(min-width:320px) and (max-width:575.98px){.footer ul{float:none}}
+/*End Footer*/
+/* Start Engeniring Freamwork */
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box}
+.green-btn{
+    background:none;
+    border:2px solid #2DCC70;
+    padding:10px 30px;
+    text-transform:capitalize;
+    color:#2DCC70;
+    font-weight:bold;
+}
+html{background-color: #252f31}
+body{background-color: #FFF}
+/* End Engeniring Freamwork */
+/* Start Grouping*/
+.header .back h1,
+.features .feat h2,
+.company .image,
+.my-skills .intro h2{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: -o-fit-content;
+    width: fit-content
+}
+/* End Grouping */
+
+
+
+
+
+
+
+
+
+
+
